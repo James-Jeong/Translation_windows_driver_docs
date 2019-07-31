@@ -21,7 +21,7 @@ Last Edited Time: Jul 31, 2019 10:36 AM
 
 당신은 드라이버 제작을 전적으로 피할 수 있는가? 만약 함수 드라이버를 만들어야만 한다면, 사용하기에 최적의 드라이버 모델은 무엇인가? 이 질문들에 답하기 위해서 **장치와 드라이버 기술들**에 작성된 기술들의 목록들에 적합한 당신의 장치가 어디에 있는지 알아내라. 함수 드라이버 제작 필요 여부를 알아낼 수 있고 당신의 장치에 적합한 드라이버 모델들을 배울 수 있는 특정 기술에  대한 문서들을 찾아보자.
 
-각 기술들의 일부는 소형 드라이버 모델들을 포함하고 있다. In a minidriver model, the device driver consists of two parts: one that handles general tasks, and one that handles device-specific tasks. Typically, Microsoft writes the general portion and the device manufacturer writes the device-specific portion. The device specific portions have a variety of names, most of which share the prefix *mini*. Here are some of the names used in minidriver models:
+각 기술들의 일부는 소형 드라이버 모델들을 포함하고 있다. 소형 모델에서는, 장치 드라이버는 두 개의 부분으로 구성되어 있습니다: one that handles general tasks, and one that handles device-specific tasks. Typically, Microsoft writes the general portion and the device manufacturer writes the device-specific portion. The device specific portions have a variety of names, most of which share the prefix *mini*. Here are some of the names used in minidriver models:
 
 - Display miniport driver
 - Audio miniport driver
